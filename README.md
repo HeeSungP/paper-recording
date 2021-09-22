@@ -23,4 +23,4 @@
 ### ■ hs_v4 2021-09-22
 #### - input : contour + dexi edge
 #### - guide : dexi edge
-#### - output : segmap
+#### - output : segmap edge
