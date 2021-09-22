@@ -5,11 +5,16 @@
 |Version|Accuracy|object IoU|back IoU|mIoU|
 |:--------:|:------:|:------:|:------:|:------:|
 |base|93.076|92.014|65.002|78.508|
+|base_e|94.967|93.790|78.189|85.989|
+|base_c|||||
 |v1|95.358|94.330|78.740|86.535|
 |v3|95.509|94.495|79.594|87.044|
 |v3_2|94.892|93.823|76.191|85.007|
 
 ### ■ base : contour segmentation
+#### - base : 모델 없이 max contour 비교
+#### - base_e : dexi edge만 input으로
+#### - base_c : max contour만 input으로
 
 ### ■ hs_v1 2021-09-22 12:31
 #### - input : contour
