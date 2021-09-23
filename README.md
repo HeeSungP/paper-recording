@@ -34,10 +34,15 @@
 #### - output : segmap
 #### - setting : batch 4, epoch 50
 
-### ■ hs_v4 2021-09-22 (log 기록하는거 깜빡...)
+### ■ hs_v4_1+2 2021-09-22~23
 #### - input : contour + dexi edge
 #### - guide : dexi edge
 #### - output : segmap edge
 #### >> cascade 구조를 위한 edge 복원 테스트 (ok)
 
+
+#### - input : v1 contour + dexi edge
+#### - guide : dexi edge
+#### - output : segmap
+#### - setting : batch 4, epoch 50
 
