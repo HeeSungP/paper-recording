@@ -17,6 +17,9 @@
 |:--------:|:------:|:------:|:------:|:------:|
 |base_e|87.498|84.180|62.612|73.396|
 
+
+## Version Description
+
 ### ■ base : contour segmentation
 #### - base : 모델 없이 max contour 비교
 #### - base_e : dexi edge만 input으로
