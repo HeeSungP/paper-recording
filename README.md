@@ -11,6 +11,12 @@
 |v3_2|94.892|93.823|76.191|85.007|
 |v4_1+2|95.140|94.085|77.495|85.790|
 
+## >< 창호 데이터 복원 파트
+
+|Version|Accuracy|object IoU|back IoU|mIoU|
+|:--------:|:------:|:------:|:------:|:------:|
+|base_e|87.498|84.180|62.612|73.396|
+
 ### ■ base : contour segmentation
 #### - base : 모델 없이 max contour 비교
 #### - base_e : dexi edge만 input으로
