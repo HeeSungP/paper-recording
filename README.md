@@ -4,7 +4,7 @@
 
 |Version|Accuracy|object IoU|back IoU|mIoU|
 |:--------:|:------:|:------:|:------:|:------:|
-|base|93.076|92.014|65.002|78.508|
+|contour|93.076|92.014|65.002|78.508|
 |base_e|94.967|93.790|78.189|85.989|
 |base_c|-|-|-|-|
 |base_raw|||||
@@ -17,6 +17,7 @@
 
 |Version|Accuracy|object IoU|back IoU|mIoU|
 |:--------:|:------:|:------:|:------:|:------:|
+|contour|77.739|76.058|24.130|50.094|
 |base_e|87.498|84.180|62.612|73.396|
 |base_raw|89.009|86.066|64.676|75.371|
 |v4_1+2|86.854|83.576|60.599|72.088|
@@ -26,7 +27,7 @@
 ## Version Description
 
 ### ■ base : contour segmentation
-#### - base : 모델 없이 max contour 비교
+#### - contour : 모델 없이 max contour 비교
 #### - base_e : dexi edge만 input으로
 #### - base_c : max contour만 input으로
 
