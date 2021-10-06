@@ -82,20 +82,26 @@
 
 # 모델 관련 아이디어 메모
 
-### 1. 2021-08-26 : unsupervised instance segmentation with contour & algorithm (based object, edge detection)
-![image](https://user-images.githubusercontent.com/67678405/134759697-9f0fadcc-9b36-47c3-a998-ce6ddd5a3de7.png)
 
- - contribution 부족 및 단순 나열 느낌
+### 3. 2021-09-16 : bounding box prior + contour estimation + feature of object edge + u-net based instance segmentation
+![image](https://user-images.githubusercontent.com/67678405/134759782-ab1fa576-87ff-4d5f-96cd-d8bd71b52360.png)
+
+ - 객체별 edge의 특성을 반영하여 contour estimation의 결과를 보정하고 이를 바탕으로 각각 segmentation을 진행하는 instance segmentation 방식에 대한 연구
+
 
 ### 2. 2021-09-15 : object edge inpainting based semantic segmentation
 ![image](https://user-images.githubusercontent.com/67678405/134759747-df875b0f-c1c3-497a-8932-09e4cdaf7483.png)
 
  - 모델 성능에 대한 불확실성 및 기존 연구 방향성을 활용하는 것이 좋겠다는 피드백
 
-### 3. 2021-09-16 : bounding box prior + contour estimation + feature of object edge + u-net based instance segmentation
-![image](https://user-images.githubusercontent.com/67678405/134759782-ab1fa576-87ff-4d5f-96cd-d8bd71b52360.png)
 
- - 객체별 edge의 특성을 반영하여 contour estimation의 결과를 보정하고 이를 바탕으로 각각 segmentation을 진행하는 instance segmentation 방식에 대한 연구
+### 1. 2021-08-26 : unsupervised instance segmentation with contour & algorithm (based object, edge detection)
+![image](https://user-images.githubusercontent.com/67678405/134759697-9f0fadcc-9b36-47c3-a998-ce6ddd5a3de7.png)
+
+ - contribution 부족 및 단순 나열 느낌
+
+
+
 
 
 ### 3번 방향성과 관련한 아이디어
